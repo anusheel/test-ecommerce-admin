@@ -14,7 +14,38 @@ const orders: Order[] = [
     price: 100,
     status: 'completed',
   },
-  // Add more orders as needed
+  {
+    id: '2',
+    title: 'Order 2',
+    description: 'This is order 2',
+    dateOfPurchase: '2022-01-02',
+    price: 200,
+    status: 'completed',
+  },
+  {
+    id: '3',
+    title: 'Order 3',
+    description: 'This is order 3',
+    dateOfPurchase: '2022-01-03',
+    price: 300,
+    status: 'pending',
+  },
+  {
+    id: '4',
+    title: 'Order 4',
+    description: 'This is order 4',
+    dateOfPurchase: '2022-01-04',
+    price: 400,
+    status: 'completed',
+  },
+  {
+    id: '5',
+    title: 'Order 5',
+    description: 'This is order 5',
+    dateOfPurchase: '2022-01-05',
+    price: 500,
+    status: 'pending',
+  },
 ]
 
 export default function Home() {
